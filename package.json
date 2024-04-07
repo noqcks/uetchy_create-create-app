@@ -27,7 +27,7 @@
     "chalk": "^4",
     "cross-spawn": "^7.0.3",
     "epicfail": "^3.0.0",
-    "execa": "^5",
+    "execa": "^8",
     "gitconfig": "^2.0.8",
     "globby": "^11",
     "handlebars": "^4.7.7",
