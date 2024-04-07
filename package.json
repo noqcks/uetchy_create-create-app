@@ -33,7 +33,7 @@
     "handlebars": "^4.7.7",
     "is-utf8": "^0.2.1",
     "license.js": "^3.1.2",
-    "slash": "^3",
+    "slash": "^5",
     "uuid": "^8.3.2",
     "yargs-interactive": "^3.0.1"
   },
