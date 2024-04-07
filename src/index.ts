@@ -431,7 +431,7 @@ export async function create(appName: string, options: Options) {
   const run = (command: string, options: CommonOptions = {}) => {
     const [script, ...scriptArgs] = command.split(' ');
 
-    return execa.command(`${script} ${scriptArgs.join(' ')}`, {
+    return execa(`${script} ${scriptArgs.join(' ')}`, [], {
       stdio: 'inherit',
       cwd: packageDir,
       ...options,
