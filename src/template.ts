@@ -1,5 +1,5 @@
 import fs from 'fs';
-import globby from 'globby';
+import { globby } from 'globby';
 import Handlebars from 'handlebars';
 import isUtf8 from 'is-utf8';
 import path, { sep } from 'path';
