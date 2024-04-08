@@ -428,7 +428,7 @@ export async function create(appName: string, options: Options) {
   }
 
   // setup afterHookOptions
-  const run = (command: string, options: CommonOptions<string> = {}) => {
+  const run = (command: string, options: CommonOptions = {}) => {
     const [script, ...scriptArgs] = command.split(' ');
 
     return execa(script, scriptArgs, {
